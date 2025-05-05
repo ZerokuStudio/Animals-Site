@@ -1,7 +1,7 @@
 const animals = {
-    Dog: { image: 'dog.jpg', text: 'У собак уникальный «отпечаток носа».', sound: 'dog.mp3' },
-    Cat: { image: 'cat.jpeg', text: 'Кошки спят около 70% своей жизни.', sound: 'cat.mp3' },
-    Parrot: { image: 'parrot.jpg', text: 'Попугаи могут повторять до 1000 слов!', sound: 'parrot.mp3' }
+    Dog: { image: 'dog.jpg', text: 'У собак унікальний відбиток носу».', sound: 'dog.mp3' },
+    Cat: { image: 'cat.jpeg', text: 'Коти сплять до 70% свого життя.', sound: 'cat.mp3' },
+    Parrot: { image: 'parrot.jpg', text: 'Папуги можуть повторити до 1000 слів!', sound: 'parrot.mp3' }
 };
 
 let currentSound = '';
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const audio = new Audio(currentSound);
             audio.play();
         } else {
-            alert('Виберите животное! А то пусто )');
+            alert('Виберіть тварину перед початком)');
         }
     });
 });
